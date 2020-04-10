@@ -1,0 +1,157 @@
+/***** HEIGHT *****/
+
+.min-height-100 {
+    min-height: 100px;
+}
+
+.height-50 {
+    height: 50px;
+}
+.height-100 {
+    height: 100px;
+}
+
+.height-150 {
+    height: 150px;
+}
+
+.height-300{
+    height: 300px;
+}
+
+
+.height-400{
+    height: 400px;
+}
+.height-80-vh{
+    min-height: 80vh;
+}
+.height-90-vh{
+    min-height: 90vh;
+}
+.height-100-vh{
+    min-height: 100vh;
+}
+
+/*** Width ***/
+.width-30{
+    width: 80px;
+}
+
+/*** Fonts ***/
+
+.font-size-13{
+    font-size: 13px;
+}
+/*** Border ***/
+
+.border-red-bottom {
+    border-bottom: 4px solid #d9534f;
+}
+
+.border-red-top {
+    border-top: 4px solid #d9534f;
+}
+/*** Affiche ***/
+
+.affiche-img{
+    max-height: 337px;
+    max-width: 224px;
+}
+
+.index-title{
+    position: relative;
+}
+
+.index-title:before{
+    content: '';
+    border: 2px solid black;
+    position: absolute;
+    top: 49%;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+/*** Images ***/
+
+.img-slider{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-responsive{
+    display: block;
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.text_decoration_none:hover{
+    text-decoration: none;
+    color: black;
+}
+.text_decoration_none{
+    text-decoration: none;
+    color: black;
+}
+
+.affiche-anim{
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.affiche-anim:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/**** FORM ICON ***/
+
+.nom_icon{
+    background-image: url("/images/style/account.png");
+    background-size: 30px 30px;
+    background-position-y: center;
+    background-position-x: 5px;
+    background-repeat: no-repeat;
+}
+
+.nom_icon:focus{
+    background-image: url("/images/style/account.png");
+    background-size: 30px 30px;
+    background-position-y: center;
+    background-position-x: 5px;
+    background-repeat: no-repeat;
+}
+
+.mdp_icon{
+    background-image: url("/images/style/lock.png");
+    background-size: 30px 30px;
+    background-position-y: center;
+    background-position-x: 5px;
+    background-repeat: no-repeat;
+}
+
+.mdp_icon:focus{
+    background-image: url("/images/style/lock.png");
+    background-size: 30px 30px;
+    background-position-y: center;
+    background-position-x: 5px;
+    background-repeat: no-repeat;
+}
+
+.mail_icon{
+    background-image: url("/images/style/mail.png");
+    background-size: 30px 30px;
+    background-position-y: center;
+    background-position-x: 5px;
+    background-repeat: no-repeat;
+}
+
+.mail_icon:focus{
+    background-image: url("/images/style/mail.png");
+    background-size: 30px 30px;
+    background-position-y: center;
+    background-position-x: 5px;
+    background-repeat: no-repeat;
+}
+

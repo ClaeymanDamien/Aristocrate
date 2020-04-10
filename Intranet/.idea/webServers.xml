@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="21f4d78d-830e-4d8e-8c70-92ef16900a83" name="intranet" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="C:\" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
